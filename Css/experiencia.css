@@ -1,0 +1,141 @@
+.sessao{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top: 60px;
+height: 480px;
+width: 1100px;
+margin-bottom: 80px;
+margin-left: 100px;
+}
+.experiencia{
+display: flex;
+font-size: 5.05rem;
+text-align: end ;
+margin-left: 180px;
+color: #49947D;
+word-break: break-all;
+max-width: 1100px;
+}
+.lista{
+margin-left: 150px;
+}
+ul{
+line-height: 75px;
+}
+li{
+font-size: 1.75rem;
+line-height: 2.75rem;
+list-style: none;
+color: #344D45;
+}
+li:hover{
+color: #826A6A;
+}
+.deco{
+width: 150px;
+height: 100px;
+display: flex;
+position: relative;
+margin-left: 25px;
+  gap: 40px;
+  top: 25px;
+}
+.front{
+font-size: 1.5rem;
+margin-left: -60px;
+margin-top: -65px;
+color: #315B4F;
+text-align: center;
+}
+.sep{
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 400px;
+  left: -100px;
+  bottom: 380px;
+}
+.decor{
+  width: 150px;
+  height: 100px;
+  display: flex;
+  position: relative;
+  margin-left: 60px;
+  top: 25px;
+}
+.design{
+font-size: 1.5rem;
+margin-left: -140px;
+margin-top: -65px;
+grid-column: 3;
+color: #315B4F;
+text-align: center;
+}
+@media (max-width: 500px){
+  .sessao{
+ max-width: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    height: 200px;
+    width: 800px;
+  margin-bottom: 40px;
+    margin-left: 80px;
+  }
+.experiencia{
+font-size: 1rem;
+margin-top:80px;
+margin-left: 200px;
+max-width: 500px;
+height: 40px;
+}
+.lista{
+margin-left: 0px;
+     
+grid-template-columns: 1fr;
+}
+ul{
+line-height: 0.75px;
+}
+li{
+font-size: 1rem;
+line-height: 1.25rem;
+list-style: none;
+color: #344D45;
+}
+li:hover{
+color: #826A6A;
+}
+      
+.deco{
+display: none;
+}
+.front{
+font-size: 1.5rem;
+margin-left: -380px;
+margin-top: 80px;
+color: #315B4F;
+text-align: center;
+line-height: 20px;
+}
+.front li{
+letter-spacing: 1.75 rem;
+margin-top: 5px;
+}
+.sep{
+display: none;
+}
+.decor{
+display: none;
+}
+.design{
+font-size: 1.5rem;
+margin-left: -320px;
+margin-top: 80px;
+line-height: 20px;
+}
+.design li{
+letter-spacing: 1.75 rem;
+margin-top: 5px;
+}
+
+}

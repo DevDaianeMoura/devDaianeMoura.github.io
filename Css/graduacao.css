@@ -1,0 +1,114 @@
+.grad{
+  display: grid;
+  max-width: 1200px;
+  width: 900px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 20px;
+justify-content: center;
+  color: #315B4F;
+margin-left: 250px;
+text-align: center;
+
+}
+.curso{
+  width: 300px;
+
+}
+
+.grad .cor{
+  color: #826A6A;
+}
+
+.univ {
+  
+  height: 90px;
+width: 350px;
+}
+/*
+.curso h2{
+  padding: 20px 0px;
+  }
+
+
+.intensivo h2{
+word-break: break-all;
+width: 0px;
+}
+*/
+
+.sep-intensivo{
+  display: flex;
+  position: relative;
+  background-repeat: repeat-x;
+background: #315B4F;
+  width: 5px;
+  height: 100px;
+  left: 360px;
+  bottom: 120px;
+}
+
+
+
+
+
+.sep-univ{
+  display: flex;
+  position: relative;
+background: #315B4F;
+  width: 5px;
+  height: 100px;
+  left: 340px;
+  bottom: 120px;
+}
+
+
+
+.sep-cursos{
+  display: flex;
+  position: relative;
+background: #315B4F;
+  width: 5px;
+  height: 100px;
+  bottom: 120px;
+  left: -690px;
+ 
+}
+
+
+@media (max-width: 500px){
+
+  .grad{
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin-top: 150px;
+    gap: 20px;
+  }
+
+  .sep-intensivo   {
+    display: none;
+  }
+  .sep-univ{
+
+   display: none; 
+  }
+  .sep-cursos{
+    display: none;
+  }
+.curso{
+  margin-left: 20px;
+  margin-left: -160px;
+}
+.intensivo{
+  margin-top: 40px;
+  margin-left: -500px;
+  margin-bottom: 20px;
+}
+.univ{
+  margin-bottom: 20px;
+  margin-left: -180px;
+}
+
+
+
+
+}
