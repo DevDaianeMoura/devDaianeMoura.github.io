@@ -1,9 +1,9 @@
-@import'./geral.css';
-@import'./header.css';
-@import'./introducao.css';
-@import'./experiencia.css';
-@import'./graduacao.css';
-@import'./footer.css';
+@import'../Css/geral.css';
+@import'../Css/header.css';
+@import'../Css/introducao.css';
+@import'../Css/experiencia.css';
+@import'../Css/graduacao.css';
+@import '../Css/footer.css';
 
 
 
